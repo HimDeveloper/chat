@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:inputType="textCapWords"
+        android:autoText="true"/>
+
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Text Message"
+        android:padding="5dp"
+        android:layout_below="@id/txt_username"
+        android:textSize="15sp"
+        android:autoLink="web"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/txt_msg"
+        android:hint="Time"
+        android:padding="5dp"
+        android:layout_marginRight="8dp"/>
+
+
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_img"-->
+        <!--android:layout_width="260dp"-->
+        <!--android:layout_height="220dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/inner_img"-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="220dp"-->
+            <!--android:background="@drawable/imgbackground">-->
+        <!--<TextView-->
+            <!--android:id="@+id/img_username"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Name"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:inputType="textCapWords"-->
+            <!--android:autoText="true"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_send"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:src="@drawable/background"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:layout_below="@+id/img_username"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/img_time"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Time"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--/>-->
+        <!--</RelativeLayout>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/download"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:src="@drawable/ic_file_download"-->
+            <!--/>-->
+         <!--</RelativeLayout>-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "283105093550",
+    "firebase_url": "https://chatapi-21f5a.firebaseio.com",
+    "project_id": "chatapi-21f5a",
+    "storage_bucket": "chatapi-21f5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283105093550:android:ba3721a08b1ddf1a",
+        "android_client_info": {
+          "package_name": "com.example.admin.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283105093550-3o9oson3644bjgsup093o8gf65o74vqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.chat",
+            "certificate_hash": "e1dfbdbc0a39db13cf50c6216a9d832907620098"
+          }
+        },
+        {
+          "client_id": "283105093550-32cm990ja21dgadooe18j9ot7s04an2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeyMtH6NRsOFKzyyVjNve6GBTu0tlINWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283105093550-32cm990ja21dgadooe18j9ot7s04an2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
